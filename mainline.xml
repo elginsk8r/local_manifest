@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/mainline/common" name="LineageOS/android_device_mainline_common" remote="github" />
+  <project path="external/drm_hwcomposer-upstream" name="LineageOS/android_external_drm_hwcomposer-upstream" remote="github" />
+  <project path="external/libdisplay-info-upstream" name="LineageOS/android_external_libdisplay-info-upstream" remote="github" />
+  <project path="external/mesa" name="LineageOS/android_external_mesa" remote="github" />
+  <project path="external/minigbm-upstream" name="LineageOS/android_external_minigbm-upstream" remote="github" />
+  <project path="external/tinyhal" name="LineageOS/android_external_tinyhal" remote="github" />
+  <project path="hardware/baylibre/audio" name="LineageOS/android_hardware_baylibre_audio" remote="github" />
+  <project path="hardware/baylibre/hdmi" name="LineageOS/android_hardware_baylibre_hdmi" remote="github" />
+  <project path="hardware/intel/sensors-iio" name="LineageOS/android_hardware_intel_sensors-iio" remote="github" />
+  <project path="hardware/mainline/common" name="LineageOS/android_hardware_mainline_common" remote="github" />
+  <project path="hardware/mainline/qcom" name="LineageOS/android_hardware_mainline_qcom" remote="github" />
+  <project path="hardware/sony/timekeep" remote="github" name="LineageOS/android_hardware_sony_timekeep" />
+  <project path="kernel/mainline/configs" name="LineageOS/android_kernel_mainline_configs" remote="github" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-none-eabi-10.2" name="khadas/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" groups="pdk,linux,arm" clone-depth="1" revision="khadas-edges-5.10.y-v1.5.0_20240620" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-10.3" name="khadas/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" groups="pdk,linux,arm" clone-depth="1" revision="khadas-edges-5.10.y-v1.5.0_20240620" />
+  <project path="prebuilts/mesa-build-dep" name="LineageOS/android_prebuilts_mesa-build-dep" remote="github" />
+</manifest>
